@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coming Soon</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: url('cover.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        h1 {
+            font-size: 6em;
+            margin: 0;
+        }
+        h2 {
+            font-size: 3em;
+            margin: 0;
+            background-color: #007BFF;
+        }
+        p {
+            font-size: 1.5em;
+        }
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2em;
+            }
+            p {
+                font-size: 1.2em;
+            }
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <div style="animation: fadeIn 2s; margin-top: 10%;">
+        <h2>Pivot Travels</h2>
+        <h1>Coming Soon</h1>
+        <p>We are working hard to launch our website.</p>
+        <a href="mailto:info@pivot-travels.com" style="display: inline-block; padding: 10px 20px; margin-top: 20px; background-color: #007BFF; color: white; text-decoration: none; border-radius: 5px;">Contact Us</a>
+    </div>
+</body>
+</html>
